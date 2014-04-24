@@ -1,0 +1,116 @@
+atlas.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dirt-Grass-4
+  rotate: false
+  xy: 1521, 0
+  size: 217, 218
+  orig: 217, 218
+  offset: 0, 0
+  index: -1
+Stone-2
+  rotate: false
+  xy: 217, 218
+  size: 218, 217
+  orig: 218, 217
+  offset: 0, 0
+  index: -1
+Stone-Grass-3
+  rotate: false
+  xy: 1304, 218
+  size: 217, 218
+  orig: 217, 218
+  offset: 0, 0
+  index: -1
+Dirt-Grass-2
+  rotate: false
+  xy: 1086, 0
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+Stone-4
+  rotate: false
+  xy: 652, 218
+  size: 217, 217
+  orig: 217, 217
+  offset: 0, 0
+  index: -1
+Stone-3
+  rotate: false
+  xy: 435, 218
+  size: 217, 217
+  orig: 217, 217
+  offset: 0, 0
+  index: -1
+Stone-Grass-1
+  rotate: false
+  xy: 869, 218
+  size: 217, 218
+  orig: 217, 218
+  offset: 0, 0
+  index: -1
+Dirt-Grass-3
+  rotate: false
+  xy: 1304, 0
+  size: 217, 218
+  orig: 217, 218
+  offset: 0, 0
+  index: -1
+Dirt-2
+  rotate: false
+  xy: 217, 0
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+Dirt-1
+  rotate: false
+  xy: 0, 0
+  size: 217, 218
+  orig: 217, 218
+  offset: 0, 0
+  index: -1
+Dirt-Grass-1
+  rotate: false
+  xy: 869, 0
+  size: 217, 218
+  orig: 217, 218
+  offset: 0, 0
+  index: -1
+Dirt-4
+  rotate: false
+  xy: 652, 0
+  size: 217, 218
+  orig: 217, 218
+  offset: 0, 0
+  index: -1
+Dirt-3
+  rotate: false
+  xy: 435, 0
+  size: 217, 218
+  orig: 217, 218
+  offset: 0, 0
+  index: -1
+Stone-1
+  rotate: false
+  xy: 0, 218
+  size: 217, 217
+  orig: 217, 217
+  offset: 0, 0
+  index: -1
+Stone-Grass-4
+  rotate: false
+  xy: 1521, 218
+  size: 217, 218
+  orig: 217, 218
+  offset: 0, 0
+  index: -1
+Stone-Grass-2
+  rotate: false
+  xy: 1086, 218
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
