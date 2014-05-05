@@ -1,6 +1,6 @@
 (defproject great-rpg "0.0.1-SNAPSHOT"
   :description "FIXME: write description"
-  
+
   :dependencies [[com.badlogicgames.gdx/gdx "1.0.0" :use-resources true]
                  [com.badlogicgames.gdx/gdx-backend-android "1.0.0"]
                  [com.badlogicgames.gdx/gdx-box2d "1.0.0"]
@@ -18,20 +18,20 @@
                         ;; :keystore-path "/home/user/.android/private.keystore"
                         ;; :key-alias "mykeyalias"
                         :aot :all}}}
-  
+
   :android {;; Specify the path to the Android SDK directory either
             ;; here or in your ~/.lein/profiles.clj file.
-            ;; :sdk-path "/home/user/path/to/android-sdk/"
-            
+            :sdk-path "/opt/android-sdk/"
+
             ;; Uncomment this if dexer fails with OutOfMemoryException
             ;; :force-dex-optimize true
-            
+
             :assets-path "../desktop/resources"
             :native-libraries-paths ["libs"]
             :target-version "15"
             :aot-exclude-ns ["clojure.parallel" "clojure.core.reducers"]
             :dex-opts ["-JXmx2048M"]}
-  
+
   :source-paths ["src/clojure" "../desktop/src-common"]
   :java-source-paths ["src/java" "gen"]
   :javac-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"])

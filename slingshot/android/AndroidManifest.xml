@@ -17,6 +17,7 @@
       </intent-filter>
     </activity>
     <activity android:name=".AndroidLauncher">
+      android:screenOrientation="landscape"
       <intent-filter>
         <action android:name='slingshot.core.MAIN'/>
         <category android:name='android.intent.category.DEFAULT'/>
