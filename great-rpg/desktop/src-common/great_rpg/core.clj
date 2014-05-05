@@ -22,23 +22,9 @@
         layer (tiled-map-layer screen layer)]
     (not (nil? (tiled-map-cell layer x y)))))
 
-(defn on-layer?
-  [screen {:keys [width height] :as entity} & layer-names]
-  (let [{:keys [x y]} (screen->isometric screen entity)
-        layers (map #(tiled-map-layer screen %) layer-names)]
-    (->> (for [tile-x (range (int x) (+ x width))
-               tile-y (range (int y) (+ y height))]
-           (-> (some #(tiled-map-cell % tile-x tile-y) layers)
-               nil?
-               not))
-         (filter identity)
-         first
-         nil?
-         not)))
-
 (defn prevent-move [screen entity]
   (let [{x :old-x, y :old-y} entity]
-    (if (on-layer? screen entity "obstacles")
+    (if (on-obstacle? screen entity "obstacles")
       (assoc entity :x x :y y)
       entity)))
 
